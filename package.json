@@ -1,0 +1,11 @@
+{
+  "name": "fullstack-auth-app",
+  "version": "1.0.0",
+  "description": "Proyecto FullStack con frontend y backend ejecutándose simultáneamente",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend-mongodb\" \"npm run dev --prefix frontend-auth\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
